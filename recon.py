@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-enhanced_recon_orchestrator.py
-
-Advanced orchestration framework for bug bounty reconnaissance with improved features:
-- Enhanced safety controls and audit logging
-- Parallel execution with thread pools
-- Progress tracking and ETA estimation
-- Notification system (Discord/Slack webhooks)
-- Output deduplication and merging
-- Custom tool profiles for different scan intensities
-- Resume capability for interrupted scans
-- JSON output for integration with other tools
-"""
 
 import argparse
 import json
