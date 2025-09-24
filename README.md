@@ -1,10 +1,10 @@
-# 🔍 Bug Bounty Reconnaissance Pipeline v6
+# 🔍 Bug Bounty Reconnaissance 
 
-A comprehensive, automated reconnaissance pipeline designed for bug bounty hunters and security researchers. This pipeline combines 10+ industry-standard tools in a strategic workflow to maximize vulnerability discovery and attack surface mapping.
+Automated reconnaissance  designed for bug bounty hunters and security researchers. This combines 10+ industry-standard tools in a strategic workflow to maximize vulnerability discovery and attack surface mapping.
 
 ## 🎯 Overview
 
-This pipeline implements a **triple-scanning methodology** with comprehensive subdomain enumeration, deep content discovery, and progressive vulnerability assessment. It's designed to find high-value targets that basic scanners and manual enumeration often miss.
+This  implements a **triple-scanning methodology** with comprehensive subdomain enumeration, deep content discovery, and progressive vulnerability assessment. It's designed to find high-value targets that basic scanners and manual enumeration often miss.
 
 ### Key Features
 
@@ -164,7 +164,7 @@ python3 recon.py -D domains.txt -w wordlist.txt -r resolvers.txt \
 | `--naabu-rate` | Naabu rate limit | 500 |
 | `--nuclei-templates` | Custom nuclei templates path | Auto-detect |
 
-## 🔄 Pipeline Workflow
+## 🔄  Workflow
 
 ```mermaid
 graph TD
@@ -272,7 +272,7 @@ python3 recon.py -D domains.txt -w large_wordlist.txt -r resolvers.txt \
 - ✅ Comply with bug bounty program terms and conditions
 
 ### Rate Limiting
-The pipeline includes built-in rate limiting:
+The  includes built-in rate limiting:
 - **Naabu**: Default 500 packets/second
 - **ShuffleDNS**: Default 500 threads
 - **Timeouts**: Prevent infinite hanging
